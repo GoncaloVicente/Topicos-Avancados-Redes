@@ -1,0 +1,58 @@
+Dec 25 18:14:46.081 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 25 18:14:46.083 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 63363.
+Dec 25 18:14:46.551 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 25 18:14:46.575 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 25 18:14:46.589 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 25 18:14:46.589 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 25 18:14:46.590 HYPERVISOR: exec_cmd: vm create R21 21 c7200 
+Dec 25 18:14:46.592 VM: VM R21 created.
+Dec 25 18:14:46.622 HYPERVISOR: exec_cmd: vm set_con_tcp_port R21 2021 
+Dec 25 18:14:46.653 HYPERVISOR: exec_cmd: c7200 get_mac_addr R21 
+Dec 25 18:14:46.662 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:46.675 HYPERVISOR: exec_cmd: vm slot_add_binding R21 0 0 C7200-IO-FE 
+Dec 25 18:14:46.697 HYPERVISOR: exec_cmd: vm set_disk0 R21 0 
+Dec 25 18:14:46.730 HYPERVISOR: exec_cmd: vm set_nvram R21 512 
+Dec 25 18:14:46.741 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:46.749 HYPERVISOR: exec_cmd: vm slot_add_binding R21 6 0 PA-4T+ 
+Dec 25 18:14:46.758 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:46.779 HYPERVISOR: exec_cmd: vm set_idle_pc R21 0x6318687c 
+Dec 25 18:14:46.802 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:46.814 HYPERVISOR: exec_cmd: vm slot_add_binding R21 1 0 PA-2FE-TX 
+Dec 25 18:14:46.871 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:46.936 HYPERVISOR: exec_cmd: vm slot_add_binding R21 5 0 PA-2FE-TX 
+Dec 25 18:14:47.009 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:47.037 HYPERVISOR: exec_cmd: vm slot_add_binding R21 2 0 PA-2FE-TX 
+Dec 25 18:14:47.049 HYPERVISOR: exec_cmd: c7200 set_mac_addr R21 ca15.500c.0000 
+Dec 25 18:14:47.072 HYPERVISOR: exec_cmd: vm set_ram R21 512 
+Dec 25 18:14:47.096 HYPERVISOR: exec_cmd: vm set_ios R21 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 25 18:14:47.118 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:47.133 HYPERVISOR: exec_cmd: vm slot_add_binding R21 3 0 PA-2FE-TX 
+Dec 25 18:14:47.149 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:47.172 HYPERVISOR: exec_cmd: vm slot_add_binding R21 4 0 PA-2FE-TX 
+Dec 25 18:14:47.186 HYPERVISOR: exec_cmd: vm set_exec_area R21 64 
+Dec 25 18:14:47.192 HYPERVISOR: exec_cmd: vm set_config R21 configs/i21_startup-config.cfg 
+Dec 25 18:14:47.272 HYPERVISOR: exec_cmd: vm set_ghost_status R21 2 
+Dec 25 18:14:47.273 HYPERVISOR: exec_cmd: vm set_ghost_file R21 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 25 18:14:47.887 HYPERVISOR: exec_cmd: nio create_udp udp-085f4d07-47dc-40be-a915-72a0d612faff 10045 127.0.0.1 10044 
+Dec 25 18:14:47.897 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 0 0 udp-085f4d07-47dc-40be-a915-72a0d612faff 
+Dec 25 18:14:47.898 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:48.058 HYPERVISOR: exec_cmd: nio create_udp udp-c393bef3-9808-4c05-b992-46ccb05e5abc 10046 127.0.0.1 10047 
+Dec 25 18:14:48.072 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 1 0 udp-c393bef3-9808-4c05-b992-46ccb05e5abc 
+Dec 25 18:14:48.072 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:55.575 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 18:14:55.577 HYPERVISOR: exec_cmd: vm start R21 
+Dec 25 18:31:44.620 HYPERVISOR: exec_cmd: vm extract_config R21 
+Dec 25 19:01:38.187 HYPERVISOR: exec_cmd: vm extract_config R21 
+Dec 25 19:23:09.332 HYPERVISOR: exec_cmd: vm extract_config R21 
+Dec 25 19:35:34.781 HYPERVISOR: exec_cmd: vm extract_config R21 
+Dec 25 19:35:35.167 HYPERVISOR: exec_cmd: vm extract_config R21 
+Dec 25 19:35:35.393 HYPERVISOR: exec_cmd: vm extract_config R21 
+Dec 25 19:35:44.013 HYPERVISOR: exec_cmd: vm get_status R21 
+Dec 25 19:35:44.018 HYPERVISOR: exec_cmd: vm stop R21 
+Dec 25 19:35:44.355 VM: VM R21 shutdown.
+Dec 25 19:35:44.359 HYPERVISOR: exec_cmd: vm extract_config R21 
+Dec 25 19:35:44.363 HYPERVISOR: exec_cmd: vm delete R21 
+Dec 25 19:35:44.363 VM: VM R21 destroyed.
+Dec 25 19:35:44.364 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 25 19:35:44.860 HYPERVISOR: Stopped.
+Dec 25 19:35:44.860 GENERAL: reset done.

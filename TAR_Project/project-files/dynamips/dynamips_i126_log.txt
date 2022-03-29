@@ -1,0 +1,61 @@
+Dec 28 16:56:04.757 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 28 16:56:04.765 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59536.
+Dec 28 16:56:05.166 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 28 16:56:05.167 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 28 16:56:05.168 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 28 16:56:05.169 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 28 16:56:05.170 HYPERVISOR: exec_cmd: vm create R23 23 c7200 
+Dec 28 16:56:05.176 VM: VM R23 created.
+Dec 28 16:56:05.178 HYPERVISOR: exec_cmd: vm set_con_tcp_port R23 2023 
+Dec 28 16:56:05.180 HYPERVISOR: exec_cmd: c7200 get_mac_addr R23 
+Dec 28 16:56:05.181 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.182 HYPERVISOR: exec_cmd: vm slot_add_binding R23 0 0 C7200-IO-FE 
+Dec 28 16:56:05.184 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.186 HYPERVISOR: exec_cmd: vm slot_add_binding R23 6 0 PA-4T+ 
+Dec 28 16:56:05.187 HYPERVISOR: exec_cmd: vm set_disk0 R23 0 
+Dec 28 16:56:05.187 HYPERVISOR: exec_cmd: vm set_nvram R23 512 
+Dec 28 16:56:05.190 HYPERVISOR: exec_cmd: vm set_ram R23 512 
+Dec 28 16:56:05.192 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.193 HYPERVISOR: exec_cmd: vm set_idle_pc R23 0x6318687c 
+Dec 28 16:56:05.194 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.195 HYPERVISOR: exec_cmd: vm slot_add_binding R23 5 0 PA-2FE-TX 
+Dec 28 16:56:05.196 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.197 HYPERVISOR: exec_cmd: vm slot_add_binding R23 2 0 PA-2FE-TX 
+Dec 28 16:56:05.198 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.199 HYPERVISOR: exec_cmd: vm slot_add_binding R23 1 0 PA-2FE-TX 
+Dec 28 16:56:05.201 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.202 HYPERVISOR: exec_cmd: vm slot_add_binding R23 3 0 PA-2FE-TX 
+Dec 28 16:56:05.203 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:05.203 HYPERVISOR: exec_cmd: vm slot_add_binding R23 4 0 PA-2FE-TX 
+Dec 28 16:56:05.205 HYPERVISOR: exec_cmd: vm set_exec_area R23 64 
+Dec 28 16:56:05.207 HYPERVISOR: exec_cmd: vm set_ios R23 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 28 16:56:05.213 HYPERVISOR: exec_cmd: vm set_config R23 configs/i23_startup-config.cfg 
+Dec 28 16:56:05.215 HYPERVISOR: exec_cmd: vm set_ghost_status R23 2 
+Dec 28 16:56:05.217 HYPERVISOR: exec_cmd: vm set_ghost_file R23 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 28 16:56:41.271 HYPERVISOR: exec_cmd: nio create_udp udp-52ddc1bb-cf4c-4a63-a45e-cd66ef8343a7 10048 127.0.0.1 10049 
+Dec 28 16:56:41.273 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R23 0 0 udp-52ddc1bb-cf4c-4a63-a45e-cd66ef8343a7 
+Dec 28 16:56:41.275 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 16:56:59.339 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:33:38.502 HYPERVISOR: exec_cmd: nio create_udp udp-bf12d728-92eb-4f29-a4ad-c5faaefe5843 10054 127.0.0.1 10055 
+Dec 28 17:33:38.504 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R23 1 0 udp-bf12d728-92eb-4f29-a4ad-c5faaefe5843 
+Dec 28 17:33:38.505 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 17:35:52.913 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 17:35:52.914 HYPERVISOR: exec_cmd: vm start R23 
+Dec 28 17:40:19.385 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:47:45.582 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:47:45.602 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:47:45.616 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:51:08.665 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:51:08.699 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:51:52.531 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:54:57.701 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 17:56:38.997 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 22:46:30.687 HYPERVISOR: exec_cmd: vm get_status R23 
+Dec 28 22:46:30.694 HYPERVISOR: exec_cmd: vm stop R23 
+Dec 28 22:46:31.356 VM: VM R23 shutdown.
+Dec 28 22:46:31.367 HYPERVISOR: exec_cmd: vm extract_config R23 
+Dec 28 22:46:31.383 HYPERVISOR: exec_cmd: vm delete R23 
+Dec 28 22:46:31.383 VM: VM R23 destroyed.
+Dec 28 22:46:31.387 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 28 22:46:31.793 HYPERVISOR: Stopped.
+Dec 28 22:46:31.794 GENERAL: reset done.

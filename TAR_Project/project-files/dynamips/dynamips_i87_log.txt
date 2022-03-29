@@ -1,0 +1,63 @@
+Dec 25 19:50:11.504 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 25 19:50:11.505 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59224.
+Dec 25 19:50:11.513 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 25 19:50:11.540 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 25 19:50:11.555 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 25 19:50:11.555 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 25 19:50:11.556 HYPERVISOR: exec_cmd: vm create R9 9 c7200 
+Dec 25 19:50:11.558 VM: VM R9 created.
+Dec 25 19:50:11.559 HYPERVISOR: exec_cmd: vm set_con_tcp_port R9 2009 
+Dec 25 19:50:11.560 HYPERVISOR: exec_cmd: c7200 get_mac_addr R9 
+Dec 25 19:50:11.560 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.561 HYPERVISOR: exec_cmd: vm slot_add_binding R9 0 0 C7200-IO-FE 
+Dec 25 19:50:11.561 HYPERVISOR: exec_cmd: vm set_disk0 R9 0 
+Dec 25 19:50:11.562 HYPERVISOR: exec_cmd: vm set_nvram R9 512 
+Dec 25 19:50:11.563 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.563 HYPERVISOR: exec_cmd: vm slot_add_binding R9 6 0 PA-4T+ 
+Dec 25 19:50:11.564 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.564 HYPERVISOR: exec_cmd: vm set_idle_pc R9 0x6318687c 
+Dec 25 19:50:11.565 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.565 HYPERVISOR: exec_cmd: vm slot_add_binding R9 1 0 PA-2FE-TX 
+Dec 25 19:50:11.566 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.566 HYPERVISOR: exec_cmd: vm slot_add_binding R9 5 0 PA-2FE-TX 
+Dec 25 19:50:11.567 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.568 HYPERVISOR: exec_cmd: vm slot_add_binding R9 2 0 PA-2FE-TX 
+Dec 25 19:50:11.568 HYPERVISOR: exec_cmd: c7200 set_mac_addr R9 ca09.5994.0000 
+Dec 25 19:50:11.569 HYPERVISOR: exec_cmd: vm set_ram R9 512 
+Dec 25 19:50:11.569 HYPERVISOR: exec_cmd: vm set_ios R9 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 25 19:50:11.570 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.570 HYPERVISOR: exec_cmd: vm slot_add_binding R9 3 0 PA-2FE-TX 
+Dec 25 19:50:11.572 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:11.572 HYPERVISOR: exec_cmd: vm slot_add_binding R9 4 0 PA-2FE-TX 
+Dec 25 19:50:11.573 HYPERVISOR: exec_cmd: vm set_exec_area R9 64 
+Dec 25 19:50:11.584 HYPERVISOR: exec_cmd: vm set_config R9 configs/i9_startup-config.cfg 
+Dec 25 19:50:11.599 HYPERVISOR: exec_cmd: vm set_ghost_status R9 2 
+Dec 25 19:50:11.599 HYPERVISOR: exec_cmd: vm set_ghost_file R9 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 25 19:50:13.145 HYPERVISOR: exec_cmd: nio create_udp udp-2f7d3d73-184c-4fe4-bacf-c5abfc5149da 10013 127.0.0.1 10012 
+Dec 25 19:50:13.224 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 0 0 udp-2f7d3d73-184c-4fe4-bacf-c5abfc5149da 
+Dec 25 19:50:13.238 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:13.507 HYPERVISOR: exec_cmd: nio create_udp udp-b6035ed5-9ddb-408d-871c-c0159077a5eb 10033 127.0.0.1 10032 
+Dec 25 19:50:13.508 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R9 1 0 udp-b6035ed5-9ddb-408d-871c-c0159077a5eb 
+Dec 25 19:50:13.516 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:24.674 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 25 19:50:24.709 HYPERVISOR: exec_cmd: vm start R9 
+Dec 25 20:04:06.241 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 25 20:05:45.884 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 25 21:17:40.980 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:17:03.188 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:32:17.927 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:44:23.292 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:52:41.630 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:59:09.363 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:59:09.589 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:59:12.972 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 26 15:59:12.972 HYPERVISOR: exec_cmd: vm stop R9 
+Dec 26 15:59:13.156 VM: VM R9 shutdown.
+Dec 26 15:59:15.116 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:59:17.037 HYPERVISOR: exec_cmd: vm get_status R9 
+Dec 26 15:59:17.045 HYPERVISOR: exec_cmd: vm extract_config R9 
+Dec 26 15:59:17.070 HYPERVISOR: exec_cmd: vm delete R9 
+Dec 26 15:59:17.070 VM: VM R9 destroyed.
+Dec 26 15:59:17.086 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 26 15:59:17.560 HYPERVISOR: Stopped.
+Dec 26 15:59:17.561 GENERAL: reset done.

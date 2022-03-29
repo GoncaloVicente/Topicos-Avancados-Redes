@@ -1,0 +1,42 @@
+Jan 17 18:29:55.042 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 18:29:55.043 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56106.
+Jan 17 18:29:55.535 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 18:29:55.535 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 17 18:29:55.535 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips 
+Jan 17 18:29:56.030 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips
+Jan 17 18:29:56.032 HYPERVISOR: exec_cmd: vm create R14 14 c7200 
+Jan 17 18:29:56.040 VM: VM R14 created.
+Jan 17 18:29:56.041 HYPERVISOR: exec_cmd: vm set_con_tcp_port R14 2014 
+Jan 17 18:29:56.044 HYPERVISOR: exec_cmd: c7200 get_mac_addr R14 
+Jan 17 18:29:56.045 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.047 HYPERVISOR: exec_cmd: vm slot_add_binding R14 0 0 C7200-IO-FE 
+Jan 17 18:29:56.048 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.050 HYPERVISOR: exec_cmd: vm set_idle_pc R14 0x6318687c 
+Jan 17 18:29:56.051 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.053 HYPERVISOR: exec_cmd: vm slot_add_binding R14 5 0 PA-2FE-TX 
+Jan 17 18:29:56.055 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.056 HYPERVISOR: exec_cmd: vm slot_add_binding R14 6 0 PA-4T+ 
+Jan 17 18:29:56.057 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.059 HYPERVISOR: exec_cmd: vm slot_add_binding R14 4 0 PA-2FE-TX 
+Jan 17 18:29:56.060 HYPERVISOR: exec_cmd: vm set_disk0 R14 0 
+Jan 17 18:29:56.061 HYPERVISOR: exec_cmd: c7200 set_mac_addr R14 ca0e.5dcc.0000 
+Jan 17 18:29:56.063 HYPERVISOR: exec_cmd: vm set_nvram R14 512 
+Jan 17 18:29:56.064 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.065 HYPERVISOR: exec_cmd: vm slot_add_binding R14 3 0 PA-2FE-TX 
+Jan 17 18:29:56.066 HYPERVISOR: exec_cmd: vm set_ios R14 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 17 18:29:56.069 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.070 HYPERVISOR: exec_cmd: vm slot_add_binding R14 1 0 PA-2FE-TX 
+Jan 17 18:29:56.071 HYPERVISOR: exec_cmd: vm set_exec_area R14 64 
+Jan 17 18:29:56.086 HYPERVISOR: exec_cmd: vm set_ram R14 512 
+Jan 17 18:29:56.087 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:29:56.106 HYPERVISOR: exec_cmd: vm slot_add_binding R14 2 0 PA-2FE-TX 
+Jan 17 18:29:56.123 HYPERVISOR: exec_cmd: vm set_config R14 configs/i14_startup-config.cfg 
+Jan 17 18:29:56.141 HYPERVISOR: exec_cmd: vm set_ghost_status R14 2 
+Jan 17 18:29:56.143 HYPERVISOR: exec_cmd: vm set_ghost_file R14 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jan 17 18:30:07.692 HYPERVISOR: exec_cmd: vm get_status R14 
+Jan 17 18:30:07.696 HYPERVISOR: exec_cmd: vm extract_config R14 
+Jan 17 18:30:07.705 HYPERVISOR: exec_cmd: vm delete R14 
+Jan 17 18:30:07.705 VM: VM R14 destroyed.
+Jan 17 18:30:07.710 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 17 18:30:07.792 HYPERVISOR: Stopped.
+Jan 17 18:30:07.792 GENERAL: reset done.

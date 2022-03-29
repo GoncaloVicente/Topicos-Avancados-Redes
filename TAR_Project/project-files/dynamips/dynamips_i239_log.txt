@@ -1,0 +1,53 @@
+Dec 29 16:38:15.514 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 29 16:38:15.517 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64408.
+Dec 29 16:38:16.105 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 16:38:16.108 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 29 16:38:16.136 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 29 16:38:16.136 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 29 16:38:16.138 HYPERVISOR: exec_cmd: vm create R18 18 c7200 
+Dec 29 16:38:16.140 VM: VM R18 created.
+Dec 29 16:38:16.141 HYPERVISOR: exec_cmd: vm set_con_tcp_port R18 2018 
+Dec 29 16:38:16.173 HYPERVISOR: exec_cmd: c7200 get_mac_addr R18 
+Dec 29 16:38:16.173 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.228 HYPERVISOR: exec_cmd: vm slot_add_binding R18 0 0 C7200-IO-FE 
+Dec 29 16:38:16.292 HYPERVISOR: exec_cmd: vm set_disk0 R18 0 
+Dec 29 16:38:16.343 HYPERVISOR: exec_cmd: vm set_nvram R18 512 
+Dec 29 16:38:16.345 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.372 HYPERVISOR: exec_cmd: vm slot_add_binding R18 6 0 PA-4T+ 
+Dec 29 16:38:16.373 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.375 HYPERVISOR: exec_cmd: vm set_idle_pc R18 0x6318687c 
+Dec 29 16:38:16.378 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.379 HYPERVISOR: exec_cmd: vm slot_add_binding R18 1 0 PA-2FE-TX 
+Dec 29 16:38:16.380 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.380 HYPERVISOR: exec_cmd: vm slot_add_binding R18 5 0 PA-2FE-TX 
+Dec 29 16:38:16.380 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.381 HYPERVISOR: exec_cmd: vm slot_add_binding R18 2 0 PA-2FE-TX 
+Dec 29 16:38:16.381 HYPERVISOR: exec_cmd: c7200 set_mac_addr R18 ca12.5804.0000 
+Dec 29 16:38:16.382 HYPERVISOR: exec_cmd: vm set_ram R18 512 
+Dec 29 16:38:16.383 HYPERVISOR: exec_cmd: vm set_ios R18 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 29 16:38:16.383 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.384 HYPERVISOR: exec_cmd: vm slot_add_binding R18 3 0 PA-2FE-TX 
+Dec 29 16:38:16.386 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:16.386 HYPERVISOR: exec_cmd: vm slot_add_binding R18 4 0 PA-2FE-TX 
+Dec 29 16:38:16.387 HYPERVISOR: exec_cmd: vm set_exec_area R18 64 
+Dec 29 16:38:16.389 HYPERVISOR: exec_cmd: vm set_config R18 configs/i18_startup-config.cfg 
+Dec 29 16:38:16.456 HYPERVISOR: exec_cmd: vm set_ghost_status R18 2 
+Dec 29 16:38:16.457 HYPERVISOR: exec_cmd: vm set_ghost_file R18 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 29 16:38:18.617 HYPERVISOR: exec_cmd: nio create_udp udp-92eda619-2577-43b6-a165-a0e8e67007a6 10039 127.0.0.1 10038 
+Dec 29 16:38:18.785 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R18 0 0 udp-92eda619-2577-43b6-a165-a0e8e67007a6 
+Dec 29 16:38:18.810 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:18.845 HYPERVISOR: exec_cmd: nio create_udp udp-f212d274-d120-424b-bd74-9c4dbed95596 10040 127.0.0.1 10041 
+Dec 29 16:38:18.875 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R18 1 0 udp-f212d274-d120-424b-bd74-9c4dbed95596 
+Dec 29 16:38:18.914 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:22.297 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 16:38:22.304 HYPERVISOR: exec_cmd: vm start R18 
+Dec 29 16:39:44.841 HYPERVISOR: exec_cmd: vm extract_config R18 
+Dec 29 17:17:25.712 HYPERVISOR: exec_cmd: vm get_status R18 
+Dec 29 17:17:25.742 HYPERVISOR: exec_cmd: vm stop R18 
+Dec 29 17:17:26.243 VM: VM R18 shutdown.
+Dec 29 17:17:26.246 HYPERVISOR: exec_cmd: vm extract_config R18 
+Dec 29 17:17:26.257 HYPERVISOR: exec_cmd: vm delete R18 
+Dec 29 17:17:26.257 VM: VM R18 destroyed.
+Dec 29 17:17:26.266 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 17:17:26.529 HYPERVISOR: Stopped.
+Dec 29 17:17:26.529 GENERAL: reset done.

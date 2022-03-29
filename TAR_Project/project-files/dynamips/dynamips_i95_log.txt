@@ -1,0 +1,60 @@
+Dec 25 19:50:12.130 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 25 19:50:12.131 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59241.
+Dec 25 19:50:12.617 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 25 19:50:12.618 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 25 19:50:12.618 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 25 19:50:12.619 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 25 19:50:12.619 HYPERVISOR: exec_cmd: vm create R17 17 c7200 
+Dec 25 19:50:12.620 VM: VM R17 created.
+Dec 25 19:50:12.621 HYPERVISOR: exec_cmd: vm set_con_tcp_port R17 2017 
+Dec 25 19:50:12.621 HYPERVISOR: exec_cmd: c7200 get_mac_addr R17 
+Dec 25 19:50:12.622 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.622 HYPERVISOR: exec_cmd: vm slot_add_binding R17 0 0 C7200-IO-FE 
+Dec 25 19:50:12.623 HYPERVISOR: exec_cmd: vm set_disk0 R17 0 
+Dec 25 19:50:12.623 HYPERVISOR: exec_cmd: vm set_nvram R17 512 
+Dec 25 19:50:12.623 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.624 HYPERVISOR: exec_cmd: vm slot_add_binding R17 6 0 PA-4T+ 
+Dec 25 19:50:12.624 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.624 HYPERVISOR: exec_cmd: vm set_idle_pc R17 0x6318687c 
+Dec 25 19:50:12.625 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.625 HYPERVISOR: exec_cmd: vm slot_add_binding R17 1 0 PA-2FE-TX 
+Dec 25 19:50:12.625 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.626 HYPERVISOR: exec_cmd: vm slot_add_binding R17 5 0 PA-2FE-TX 
+Dec 25 19:50:12.626 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.626 HYPERVISOR: exec_cmd: vm slot_add_binding R17 2 0 PA-2FE-TX 
+Dec 25 19:50:12.627 HYPERVISOR: exec_cmd: c7200 set_mac_addr R17 ca11.5aac.0000 
+Dec 25 19:50:12.627 HYPERVISOR: exec_cmd: vm set_ram R17 512 
+Dec 25 19:50:12.628 HYPERVISOR: exec_cmd: vm set_ios R17 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 25 19:50:12.628 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.628 HYPERVISOR: exec_cmd: vm slot_add_binding R17 3 0 PA-2FE-TX 
+Dec 25 19:50:12.629 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:12.629 HYPERVISOR: exec_cmd: vm slot_add_binding R17 4 0 PA-2FE-TX 
+Dec 25 19:50:12.629 HYPERVISOR: exec_cmd: vm set_exec_area R17 64 
+Dec 25 19:50:12.630 HYPERVISOR: exec_cmd: vm set_config R17 configs/i17_startup-config.cfg 
+Dec 25 19:50:12.630 HYPERVISOR: exec_cmd: vm set_ghost_status R17 2 
+Dec 25 19:50:12.631 HYPERVISOR: exec_cmd: vm set_ghost_file R17 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 25 19:50:13.556 HYPERVISOR: exec_cmd: nio create_udp udp-a7dcb5b9-cc69-450c-ac94-2c8bc8e72c9a 10037 127.0.0.1 10036 
+Dec 25 19:50:13.557 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R17 0 0 udp-a7dcb5b9-cc69-450c-ac94-2c8bc8e72c9a 
+Dec 25 19:50:13.571 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:23.864 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 25 19:50:23.868 HYPERVISOR: exec_cmd: vm start R17 
+Dec 25 20:04:06.167 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 25 20:05:45.866 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 25 21:17:40.962 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:17:03.159 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:32:17.909 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:44:23.271 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:52:41.610 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:59:09.334 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:59:09.545 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:59:12.426 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 26 15:59:12.427 HYPERVISOR: exec_cmd: vm stop R17 
+Dec 26 15:59:12.673 VM: VM R17 shutdown.
+Dec 26 15:59:15.094 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:59:17.032 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 26 15:59:17.039 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 26 15:59:17.049 HYPERVISOR: exec_cmd: vm delete R17 
+Dec 26 15:59:17.049 VM: VM R17 destroyed.
+Dec 26 15:59:17.080 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 26 15:59:17.166 HYPERVISOR: Stopped.
+Dec 26 15:59:17.166 GENERAL: reset done.

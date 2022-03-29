@@ -1,0 +1,2 @@
+Jan 17 18:29:56.896 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 18:29:56.897 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56136.

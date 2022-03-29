@@ -1,0 +1,52 @@
+Jan 06 19:24:59.311 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 06 19:24:59.311 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60870.
+Jan 06 19:24:59.810 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 06 19:24:59.811 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 06 19:24:59.811 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Jan 06 19:24:59.811 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Jan 06 19:24:59.812 HYPERVISOR: exec_cmd: vm create R20 20 c7200 
+Jan 06 19:24:59.814 VM: VM R20 created.
+Jan 06 19:24:59.815 HYPERVISOR: exec_cmd: vm set_con_tcp_port R20 2020 
+Jan 06 19:24:59.815 HYPERVISOR: exec_cmd: c7200 get_mac_addr R20 
+Jan 06 19:24:59.815 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.816 HYPERVISOR: exec_cmd: vm slot_add_binding R20 0 0 C7200-IO-FE 
+Jan 06 19:24:59.816 HYPERVISOR: exec_cmd: vm set_nvram R20 512 
+Jan 06 19:24:59.817 HYPERVISOR: exec_cmd: vm set_disk0 R20 0 
+Jan 06 19:24:59.818 HYPERVISOR: exec_cmd: vm set_ios R20 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 06 19:24:59.818 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.829 HYPERVISOR: exec_cmd: vm slot_add_binding R20 4 0 PA-2FE-TX 
+Jan 06 19:24:59.829 HYPERVISOR: exec_cmd: c7200 set_mac_addr R20 ca14.6794.0000 
+Jan 06 19:24:59.843 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.844 HYPERVISOR: exec_cmd: vm set_idle_pc R20 0x6318687c 
+Jan 06 19:24:59.844 HYPERVISOR: exec_cmd: vm set_ram R20 512 
+Jan 06 19:24:59.845 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.845 HYPERVISOR: exec_cmd: vm slot_add_binding R20 2 0 PA-2FE-TX 
+Jan 06 19:24:59.845 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.846 HYPERVISOR: exec_cmd: vm slot_add_binding R20 6 0 PA-4T+ 
+Jan 06 19:24:59.846 HYPERVISOR: exec_cmd: vm set_exec_area R20 64 
+Jan 06 19:24:59.846 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.847 HYPERVISOR: exec_cmd: vm slot_add_binding R20 1 0 PA-2FE-TX 
+Jan 06 19:24:59.847 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.847 HYPERVISOR: exec_cmd: vm slot_add_binding R20 5 0 PA-2FE-TX 
+Jan 06 19:24:59.848 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:24:59.848 HYPERVISOR: exec_cmd: vm slot_add_binding R20 3 0 PA-2FE-TX 
+Jan 06 19:24:59.849 HYPERVISOR: exec_cmd: vm set_config R20 configs/i20_startup-config.cfg 
+Jan 06 19:24:59.849 HYPERVISOR: exec_cmd: vm set_ghost_status R20 2 
+Jan 06 19:24:59.849 HYPERVISOR: exec_cmd: vm set_ghost_file R20 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jan 06 19:25:01.447 HYPERVISOR: exec_cmd: nio create_udp udp-339b3397-74bd-459d-ae4e-85d5f3ed6ec8 10043 127.0.0.1 10042 
+Jan 06 19:25:01.448 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R20 0 0 udp-339b3397-74bd-459d-ae4e-85d5f3ed6ec8 
+Jan 06 19:25:01.462 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:25:01.495 HYPERVISOR: exec_cmd: nio create_udp udp-5bce7ba4-5bfa-484c-bbdd-81a59fe45463 10044 127.0.0.1 10045 
+Jan 06 19:25:01.502 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R20 1 0 udp-5bce7ba4-5bfa-484c-bbdd-81a59fe45463 
+Jan 06 19:25:01.518 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:34:56.857 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:34:56.858 HYPERVISOR: exec_cmd: vm start R20 
+Jan 06 19:40:04.759 HYPERVISOR: exec_cmd: vm get_status R20 
+Jan 06 19:40:04.768 HYPERVISOR: exec_cmd: vm stop R20 
+Jan 06 19:40:07.833 VM: VM R20 shutdown.
+Jan 06 19:40:07.842 HYPERVISOR: exec_cmd: vm extract_config R20 
+Jan 06 19:40:07.864 HYPERVISOR: exec_cmd: vm delete R20 
+Jan 06 19:40:07.864 VM: VM R20 destroyed.
+Jan 06 19:40:07.870 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 06 19:40:08.299 HYPERVISOR: Stopped.
+Jan 06 19:40:08.299 GENERAL: reset done.

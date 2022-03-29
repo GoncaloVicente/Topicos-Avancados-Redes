@@ -1,0 +1,42 @@
+Jan 17 18:29:56.407 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 18:29:56.408 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56128.
+Jan 17 18:29:56.904 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 18:29:56.905 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 17 18:29:56.905 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips 
+Jan 17 18:29:56.906 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips
+Jan 17 18:29:56.906 HYPERVISOR: exec_cmd: vm create R25 25 c7200 
+Jan 17 18:29:56.911 VM: VM R25 created.
+Jan 17 18:29:56.913 HYPERVISOR: exec_cmd: vm set_con_tcp_port R25 2025 
+Jan 17 18:29:56.913 HYPERVISOR: exec_cmd: c7200 get_mac_addr R25 
+Jan 17 18:29:56.914 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.914 HYPERVISOR: exec_cmd: vm slot_add_binding R25 0 0 C7200-IO-FE 
+Jan 17 18:29:56.915 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.915 HYPERVISOR: exec_cmd: vm set_idle_pc R25 0x6318687c 
+Jan 17 18:29:56.915 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.916 HYPERVISOR: exec_cmd: vm slot_add_binding R25 5 0 PA-2FE-TX 
+Jan 17 18:29:56.917 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.917 HYPERVISOR: exec_cmd: vm slot_add_binding R25 6 0 PA-4T+ 
+Jan 17 18:29:56.918 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.918 HYPERVISOR: exec_cmd: vm slot_add_binding R25 4 0 PA-2FE-TX 
+Jan 17 18:29:56.918 HYPERVISOR: exec_cmd: vm set_disk0 R25 0 
+Jan 17 18:29:56.919 HYPERVISOR: exec_cmd: c7200 set_mac_addr R25 ca19.70fc.0000 
+Jan 17 18:29:56.920 HYPERVISOR: exec_cmd: vm set_nvram R25 512 
+Jan 17 18:29:56.920 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.921 HYPERVISOR: exec_cmd: vm slot_add_binding R25 3 0 PA-2FE-TX 
+Jan 17 18:29:56.923 HYPERVISOR: exec_cmd: vm set_ios R25 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 17 18:29:56.924 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.924 HYPERVISOR: exec_cmd: vm slot_add_binding R25 1 0 PA-2FE-TX 
+Jan 17 18:29:56.924 HYPERVISOR: exec_cmd: vm set_exec_area R25 64 
+Jan 17 18:29:56.925 HYPERVISOR: exec_cmd: vm set_ram R25 512 
+Jan 17 18:29:56.925 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:29:56.926 HYPERVISOR: exec_cmd: vm slot_add_binding R25 2 0 PA-2FE-TX 
+Jan 17 18:29:56.927 HYPERVISOR: exec_cmd: vm set_config R25 configs/i25_startup-config.cfg 
+Jan 17 18:29:56.929 HYPERVISOR: exec_cmd: vm set_ghost_status R25 2 
+Jan 17 18:29:56.931 HYPERVISOR: exec_cmd: vm set_ghost_file R25 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jan 17 18:30:07.694 HYPERVISOR: exec_cmd: vm get_status R25 
+Jan 17 18:30:07.702 HYPERVISOR: exec_cmd: vm extract_config R25 
+Jan 17 18:30:07.708 HYPERVISOR: exec_cmd: vm delete R25 
+Jan 17 18:30:07.708 VM: VM R25 destroyed.
+Jan 17 18:30:07.714 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 17 18:30:08.164 HYPERVISOR: Stopped.
+Jan 17 18:30:08.164 GENERAL: reset done.

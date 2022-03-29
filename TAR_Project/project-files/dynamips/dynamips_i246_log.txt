@@ -1,0 +1,53 @@
+Dec 29 16:38:16.656 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 29 16:38:16.660 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64422.
+Dec 29 16:38:17.221 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 16:38:17.228 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 29 16:38:17.230 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 29 16:38:17.230 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 29 16:38:17.254 HYPERVISOR: exec_cmd: vm create R25 25 c7200 
+Dec 29 16:38:17.256 VM: VM R25 created.
+Dec 29 16:38:17.283 HYPERVISOR: exec_cmd: vm set_con_tcp_port R25 2025 
+Dec 29 16:38:17.291 HYPERVISOR: exec_cmd: c7200 get_mac_addr R25 
+Dec 29 16:38:17.315 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:17.344 HYPERVISOR: exec_cmd: vm slot_add_binding R25 0 0 C7200-IO-FE 
+Dec 29 16:38:17.364 HYPERVISOR: exec_cmd: vm set_disk0 R25 0 
+Dec 29 16:38:17.378 HYPERVISOR: exec_cmd: vm set_nvram R25 512 
+Dec 29 16:38:17.404 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:17.424 HYPERVISOR: exec_cmd: vm slot_add_binding R25 6 0 PA-4T+ 
+Dec 29 16:38:17.546 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:17.616 HYPERVISOR: exec_cmd: vm set_idle_pc R25 0x6318687c 
+Dec 29 16:38:17.656 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:17.689 HYPERVISOR: exec_cmd: vm slot_add_binding R25 1 0 PA-2FE-TX 
+Dec 29 16:38:17.704 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:17.747 HYPERVISOR: exec_cmd: vm slot_add_binding R25 5 0 PA-2FE-TX 
+Dec 29 16:38:17.803 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:17.826 HYPERVISOR: exec_cmd: vm slot_add_binding R25 2 0 PA-2FE-TX 
+Dec 29 16:38:17.843 HYPERVISOR: exec_cmd: c7200 set_mac_addr R25 ca19.70fc.0000 
+Dec 29 16:38:17.886 HYPERVISOR: exec_cmd: vm set_ram R25 512 
+Dec 29 16:38:17.904 HYPERVISOR: exec_cmd: vm set_ios R25 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 29 16:38:17.931 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:17.957 HYPERVISOR: exec_cmd: vm slot_add_binding R25 3 0 PA-2FE-TX 
+Dec 29 16:38:17.972 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:18.010 HYPERVISOR: exec_cmd: vm slot_add_binding R25 4 0 PA-2FE-TX 
+Dec 29 16:38:18.039 HYPERVISOR: exec_cmd: vm set_exec_area R25 64 
+Dec 29 16:38:18.041 HYPERVISOR: exec_cmd: vm set_config R25 configs/i25_startup-config.cfg 
+Dec 29 16:38:18.082 HYPERVISOR: exec_cmd: vm set_ghost_status R25 2 
+Dec 29 16:38:18.112 HYPERVISOR: exec_cmd: vm set_ghost_file R25 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 29 16:38:19.237 HYPERVISOR: exec_cmd: nio create_udp udp-e00b81ee-9c7e-456a-87e7-24f46e29f1a6 10056 127.0.0.1 10057 
+Dec 29 16:38:19.265 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R25 0 0 udp-e00b81ee-9c7e-456a-87e7-24f46e29f1a6 
+Dec 29 16:38:19.267 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:19.373 HYPERVISOR: exec_cmd: nio create_udp udp-25560c1f-1d32-494f-99f1-c301db1cb79c 10058 127.0.0.1 10059 
+Dec 29 16:38:19.745 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R25 1 0 udp-25560c1f-1d32-494f-99f1-c301db1cb79c 
+Dec 29 16:38:19.748 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:21.792 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 16:38:21.797 HYPERVISOR: exec_cmd: vm start R25 
+Dec 29 16:39:44.775 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 29 17:17:25.721 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 29 17:17:25.744 HYPERVISOR: exec_cmd: vm stop R25 
+Dec 29 17:17:26.220 VM: VM R25 shutdown.
+Dec 29 17:17:26.224 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 29 17:17:26.232 HYPERVISOR: exec_cmd: vm delete R25 
+Dec 29 17:17:26.233 VM: VM R25 destroyed.
+Dec 29 17:17:26.240 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 17:17:26.660 HYPERVISOR: Stopped.
+Dec 29 17:17:26.660 GENERAL: reset done.

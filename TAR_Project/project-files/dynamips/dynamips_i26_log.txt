@@ -1,0 +1,11 @@
+Jan 17 18:29:56.434 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 18:29:56.435 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56131.
+Jan 17 18:29:56.951 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 18:29:56.952 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 17 18:29:56.952 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips 
+Jan 17 18:29:56.953 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips
+Jan 17 18:29:56.953 HYPERVISOR: exec_cmd: ethsw create SW1 
+Jan 17 18:30:07.223 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Jan 17 18:30:07.224 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 17 18:30:07.685 HYPERVISOR: Stopped.
+Jan 17 18:30:07.685 GENERAL: reset done.

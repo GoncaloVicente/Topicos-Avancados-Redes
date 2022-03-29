@@ -1,0 +1,54 @@
+Jan 08 23:46:28.178 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 08 23:46:28.179 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 64555.
+Jan 08 23:46:28.656 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 08 23:46:28.657 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 08 23:46:28.657 HYPERVISOR: exec_cmd: hypervisor working_dir D:/Gonçalo/Engenharia Informática/Tópicos Avançados de Redes/GonçaloVicente_2172131_Parte2/Projeto_GNS3\project-files\dynamips 
+Jan 08 23:46:28.657 GENERAL: working_dir=D:/Gonçalo/Engenharia Informática/Tópicos Avançados de Redes/GonçaloVicente_2172131_Parte2/Projeto_GNS3\project-files\dynamips
+Jan 08 23:46:28.658 HYPERVISOR: exec_cmd: vm create R21 21 c7200 
+Jan 08 23:46:28.659 VM: VM R21 created.
+Jan 08 23:46:28.660 HYPERVISOR: exec_cmd: vm set_con_tcp_port R21 2021 
+Jan 08 23:46:28.660 HYPERVISOR: exec_cmd: c7200 get_mac_addr R21 
+Jan 08 23:46:28.660 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.660 HYPERVISOR: exec_cmd: vm slot_add_binding R21 0 0 C7200-IO-FE 
+Jan 08 23:46:28.661 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.661 HYPERVISOR: exec_cmd: vm slot_add_binding R21 5 0 PA-2FE-TX 
+Jan 08 23:46:28.661 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.662 HYPERVISOR: exec_cmd: vm slot_add_binding R21 4 0 PA-2FE-TX 
+Jan 08 23:46:28.662 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.662 HYPERVISOR: exec_cmd: vm slot_add_binding R21 2 0 PA-2FE-TX 
+Jan 08 23:46:28.662 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.663 HYPERVISOR: exec_cmd: vm slot_add_binding R21 3 0 PA-2FE-TX 
+Jan 08 23:46:28.663 HYPERVISOR: exec_cmd: vm set_disk0 R21 0 
+Jan 08 23:46:28.663 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.663 HYPERVISOR: exec_cmd: vm slot_add_binding R21 1 0 PA-2FE-TX 
+Jan 08 23:46:28.664 HYPERVISOR: exec_cmd: vm set_exec_area R21 64 
+Jan 08 23:46:28.664 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.664 HYPERVISOR: exec_cmd: vm set_idle_pc R21 0x6318687c 
+Jan 08 23:46:28.665 HYPERVISOR: exec_cmd: c7200 set_mac_addr R21 ca15.500c.0000 
+Jan 08 23:46:28.665 HYPERVISOR: exec_cmd: vm set_ram R21 512 
+Jan 08 23:46:28.665 HYPERVISOR: exec_cmd: vm set_ios R21 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 08 23:46:28.666 HYPERVISOR: exec_cmd: vm set_nvram R21 512 
+Jan 08 23:46:28.666 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:28.666 HYPERVISOR: exec_cmd: vm slot_add_binding R21 6 0 PA-4T+ 
+Jan 08 23:46:28.667 HYPERVISOR: exec_cmd: vm set_config R21 configs/i21_startup-config.cfg 
+Jan 08 23:46:28.668 HYPERVISOR: exec_cmd: vm set_ghost_status R21 2 
+Jan 08 23:46:28.668 HYPERVISOR: exec_cmd: vm set_ghost_file R21 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jan 08 23:46:30.056 HYPERVISOR: exec_cmd: nio create_udp udp-29e45823-7b3a-43e5-88a0-6efbee31e45d 10045 127.0.0.1 10044 
+Jan 08 23:46:30.078 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 0 0 udp-29e45823-7b3a-43e5-88a0-6efbee31e45d 
+Jan 08 23:46:30.086 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 08 23:46:30.107 HYPERVISOR: exec_cmd: nio create_udp udp-be1713a5-98b1-4ce5-972a-eddb599a186c 10046 127.0.0.1 10047 
+Jan 08 23:46:30.128 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R21 1 0 udp-be1713a5-98b1-4ce5-972a-eddb599a186c 
+Jan 08 23:46:30.148 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 09 00:09:18.776 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 09 00:09:18.777 HYPERVISOR: exec_cmd: vm start R21 
+Jan 09 00:22:58.715 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 09 09:14:39.973 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 09 09:14:39.975 HYPERVISOR: exec_cmd: vm stop R21 
+Jan 09 09:14:40.245 VM: VM R21 shutdown.
+Jan 09 09:14:51.089 HYPERVISOR: exec_cmd: vm get_status R21 
+Jan 09 09:14:51.101 HYPERVISOR: exec_cmd: vm extract_config R21 
+Jan 09 09:14:51.581 HYPERVISOR: exec_cmd: vm delete R21 
+Jan 09 09:14:51.581 VM: VM R21 destroyed.
+Jan 09 09:14:51.613 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 09 09:14:51.970 HYPERVISOR: Stopped.
+Jan 09 09:14:51.970 GENERAL: reset done.

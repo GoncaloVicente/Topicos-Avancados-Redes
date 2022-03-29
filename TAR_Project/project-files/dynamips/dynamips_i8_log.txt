@@ -1,0 +1,42 @@
+Jan 17 18:29:54.863 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 17 18:29:54.864 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56095.
+Jan 17 18:29:54.889 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 17 18:29:54.918 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 17 18:29:54.918 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips 
+Jan 17 18:29:54.919 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\GonçaloVicente_2172131_Parte2\Projeto_GNS3\project-files\dynamips
+Jan 17 18:29:54.935 HYPERVISOR: exec_cmd: vm create R8 8 c7200 
+Jan 17 18:29:54.937 VM: VM R8 created.
+Jan 17 18:29:54.938 HYPERVISOR: exec_cmd: vm set_con_tcp_port R8 2008 
+Jan 17 18:29:54.939 HYPERVISOR: exec_cmd: c7200 get_mac_addr R8 
+Jan 17 18:29:54.939 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.939 HYPERVISOR: exec_cmd: vm slot_add_binding R8 0 0 C7200-IO-FE 
+Jan 17 18:29:54.940 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.941 HYPERVISOR: exec_cmd: vm set_idle_pc R8 0x6318687c 
+Jan 17 18:29:54.942 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.942 HYPERVISOR: exec_cmd: vm slot_add_binding R8 5 0 PA-2FE-TX 
+Jan 17 18:29:54.943 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.943 HYPERVISOR: exec_cmd: vm slot_add_binding R8 6 0 PA-4T+ 
+Jan 17 18:29:54.944 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.945 HYPERVISOR: exec_cmd: vm slot_add_binding R8 4 0 PA-2FE-TX 
+Jan 17 18:29:54.946 HYPERVISOR: exec_cmd: vm set_disk0 R8 0 
+Jan 17 18:29:54.946 HYPERVISOR: exec_cmd: c7200 set_mac_addr R8 ca08.5858.0000 
+Jan 17 18:29:54.947 HYPERVISOR: exec_cmd: vm set_nvram R8 512 
+Jan 17 18:29:54.948 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.948 HYPERVISOR: exec_cmd: vm slot_add_binding R8 3 0 PA-2FE-TX 
+Jan 17 18:29:54.949 HYPERVISOR: exec_cmd: vm set_ios R8 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 17 18:29:54.950 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.950 HYPERVISOR: exec_cmd: vm slot_add_binding R8 1 0 PA-2FE-TX 
+Jan 17 18:29:54.951 HYPERVISOR: exec_cmd: vm set_exec_area R8 64 
+Jan 17 18:29:54.951 HYPERVISOR: exec_cmd: vm set_ram R8 512 
+Jan 17 18:29:54.952 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:29:54.952 HYPERVISOR: exec_cmd: vm slot_add_binding R8 2 0 PA-2FE-TX 
+Jan 17 18:29:54.954 HYPERVISOR: exec_cmd: vm set_config R8 configs/i8_startup-config.cfg 
+Jan 17 18:29:54.966 HYPERVISOR: exec_cmd: vm set_ghost_status R8 2 
+Jan 17 18:29:54.967 HYPERVISOR: exec_cmd: vm set_ghost_file R8 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Jan 17 18:30:07.693 HYPERVISOR: exec_cmd: vm get_status R8 
+Jan 17 18:30:07.699 HYPERVISOR: exec_cmd: vm extract_config R8 
+Jan 17 18:30:07.706 HYPERVISOR: exec_cmd: vm delete R8 
+Jan 17 18:30:07.706 VM: VM R8 destroyed.
+Jan 17 18:30:07.712 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 17 18:30:08.180 HYPERVISOR: Stopped.
+Jan 17 18:30:08.181 GENERAL: reset done.

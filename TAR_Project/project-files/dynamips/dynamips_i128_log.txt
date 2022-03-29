@@ -1,0 +1,71 @@
+Dec 28 16:56:25.643 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 28 16:56:25.645 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 59540.
+Dec 28 16:56:26.106 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 28 16:56:26.108 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 28 16:56:26.109 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 28 16:56:26.110 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 28 16:56:26.111 HYPERVISOR: exec_cmd: vm create R25 25 c7200 
+Dec 28 16:56:26.117 VM: VM R25 created.
+Dec 28 16:56:26.118 HYPERVISOR: exec_cmd: vm set_con_tcp_port R25 2025 
+Dec 28 16:56:26.120 HYPERVISOR: exec_cmd: c7200 get_mac_addr R25 
+Dec 28 16:56:26.121 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.122 HYPERVISOR: exec_cmd: vm slot_add_binding R25 0 0 C7200-IO-FE 
+Dec 28 16:56:26.123 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.124 HYPERVISOR: exec_cmd: vm slot_add_binding R25 6 0 PA-4T+ 
+Dec 28 16:56:26.125 HYPERVISOR: exec_cmd: vm set_disk0 R25 0 
+Dec 28 16:56:26.126 HYPERVISOR: exec_cmd: vm set_nvram R25 512 
+Dec 28 16:56:26.127 HYPERVISOR: exec_cmd: vm set_ram R25 512 
+Dec 28 16:56:26.129 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.130 HYPERVISOR: exec_cmd: vm set_idle_pc R25 0x6318687c 
+Dec 28 16:56:26.131 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.131 HYPERVISOR: exec_cmd: vm slot_add_binding R25 5 0 PA-2FE-TX 
+Dec 28 16:56:26.133 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.133 HYPERVISOR: exec_cmd: vm slot_add_binding R25 2 0 PA-2FE-TX 
+Dec 28 16:56:26.135 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.137 HYPERVISOR: exec_cmd: vm slot_add_binding R25 1 0 PA-2FE-TX 
+Dec 28 16:56:26.138 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.139 HYPERVISOR: exec_cmd: vm slot_add_binding R25 3 0 PA-2FE-TX 
+Dec 28 16:56:26.140 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:26.141 HYPERVISOR: exec_cmd: vm slot_add_binding R25 4 0 PA-2FE-TX 
+Dec 28 16:56:26.142 HYPERVISOR: exec_cmd: vm set_exec_area R25 64 
+Dec 28 16:56:26.143 HYPERVISOR: exec_cmd: vm set_ios R25 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 28 16:56:26.177 HYPERVISOR: exec_cmd: vm set_config R25 configs/i25_startup-config.cfg 
+Dec 28 16:56:26.179 HYPERVISOR: exec_cmd: vm set_ghost_status R25 2 
+Dec 28 16:56:26.180 HYPERVISOR: exec_cmd: vm set_ghost_file R25 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 28 16:56:50.192 HYPERVISOR: exec_cmd: nio create_udp udp-15c0cf44-fe61-4fd1-8268-8af5c52079ca 10050 127.0.0.1 10051 
+Dec 28 16:56:50.194 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R25 0 0 udp-15c0cf44-fe61-4fd1-8268-8af5c52079ca 
+Dec 28 16:56:50.194 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 16:56:59.269 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:33:52.912 HYPERVISOR: exec_cmd: nio create_udp udp-e1f1b4bd-4c0a-4df3-a843-13ed515ea362 10059 127.0.0.1 10058 
+Dec 28 17:33:52.913 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R25 1 0 udp-e1f1b4bd-4c0a-4df3-a843-13ed515ea362 
+Dec 28 17:33:52.913 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 17:36:02.862 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 17:36:02.863 HYPERVISOR: exec_cmd: vm start R25 
+Dec 28 17:40:19.232 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:47:45.341 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:47:45.363 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:47:45.380 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:51:08.465 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:51:08.474 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:51:52.437 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:54:57.633 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 17:56:38.915 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 22:03:22.846 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 22:03:22.847 HYPERVISOR: exec_cmd: vm stop R25 
+Dec 28 22:03:23.051 VM: VM R25 shutdown.
+Dec 28 22:03:23.051 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 22:03:23.052 HYPERVISOR: exec_cmd: vm start R25 
+Dec 28 22:36:34.597 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 22:36:34.598 HYPERVISOR: exec_cmd: vm stop R25 
+Dec 28 22:36:34.807 VM: VM R25 shutdown.
+Dec 28 22:36:34.808 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 22:36:34.809 HYPERVISOR: exec_cmd: vm start R25 
+Dec 28 22:46:30.683 HYPERVISOR: exec_cmd: vm get_status R25 
+Dec 28 22:46:30.693 HYPERVISOR: exec_cmd: vm stop R25 
+Dec 28 22:46:30.898 VM: VM R25 shutdown.
+Dec 28 22:46:30.899 HYPERVISOR: exec_cmd: vm extract_config R25 
+Dec 28 22:46:30.903 HYPERVISOR: exec_cmd: vm delete R25 
+Dec 28 22:46:30.903 VM: VM R25 destroyed.
+Dec 28 22:46:30.905 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 28 22:46:31.297 HYPERVISOR: Stopped.
+Dec 28 22:46:31.297 GENERAL: reset done.

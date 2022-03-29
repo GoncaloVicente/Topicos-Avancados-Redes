@@ -1,0 +1,23 @@
+Jan 06 19:24:59.897 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Jan 06 19:24:59.898 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 60882.
+Jan 06 19:25:00.400 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 06 19:25:00.401 HYPERVISOR: exec_cmd: hypervisor uuid 
+Jan 06 19:25:00.401 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Jan 06 19:25:00.401 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Jan 06 19:25:00.401 HYPERVISOR: exec_cmd: ethsw create SW1 
+Jan 06 19:25:01.660 HYPERVISOR: exec_cmd: nio create_udp udp-612e3abf-931d-4c49-805e-bf3d48b7773c 10057 127.0.0.1 10056 
+Jan 06 19:25:01.682 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-612e3abf-931d-4c49-805e-bf3d48b7773c 
+Jan 06 19:25:01.710 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-612e3abf-931d-4c49-805e-bf3d48b7773c 1 
+Jan 06 19:25:01.726 HYPERVISOR: exec_cmd: nio create_udp udp-e131c602-066d-47ab-abff-f5c5904e29a4 10060 127.0.0.1 10061 
+Jan 06 19:25:01.729 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-e131c602-066d-47ab-abff-f5c5904e29a4 
+Jan 06 19:25:01.773 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-e131c602-066d-47ab-abff-f5c5904e29a4 1 
+Jan 06 19:25:01.788 HYPERVISOR: exec_cmd: nio create_udp udp-a921d773-1c16-41e4-b049-ceb858d24c20 10064 127.0.0.1 10065 
+Jan 06 19:25:01.796 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-a921d773-1c16-41e4-b049-ceb858d24c20 
+Jan 06 19:25:01.819 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-a921d773-1c16-41e4-b049-ceb858d24c20 1 
+Jan 06 19:25:01.856 HYPERVISOR: exec_cmd: nio create_udp udp-286e361f-083b-44a0-9d2d-5cb08eafba26 10071 127.0.0.1 10070 
+Jan 06 19:25:01.872 HYPERVISOR: exec_cmd: ethsw add_nio SW1 udp-286e361f-083b-44a0-9d2d-5cb08eafba26 
+Jan 06 19:25:01.892 HYPERVISOR: exec_cmd: ethsw set_access_port SW1 udp-286e361f-083b-44a0-9d2d-5cb08eafba26 1 
+Jan 06 19:40:04.161 HYPERVISOR: exec_cmd: ethsw delete SW1 
+Jan 06 19:40:04.269 HYPERVISOR: exec_cmd: hypervisor stop 
+Jan 06 19:40:04.728 HYPERVISOR: Stopped.
+Jan 06 19:40:04.728 GENERAL: reset done.

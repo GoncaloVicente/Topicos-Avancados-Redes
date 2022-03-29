@@ -1,0 +1,56 @@
+Dec 28 22:56:04.674 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 28 22:56:04.676 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55375.
+Dec 28 22:56:05.172 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 28 22:56:05.173 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 28 22:56:05.174 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 28 22:56:05.174 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 28 22:56:05.175 HYPERVISOR: exec_cmd: vm create R19 19 c7200 
+Dec 28 22:56:05.177 VM: VM R19 created.
+Dec 28 22:56:05.178 HYPERVISOR: exec_cmd: vm set_con_tcp_port R19 2019 
+Dec 28 22:56:05.179 HYPERVISOR: exec_cmd: c7200 get_mac_addr R19 
+Dec 28 22:56:05.179 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.180 HYPERVISOR: exec_cmd: vm slot_add_binding R19 0 0 C7200-IO-FE 
+Dec 28 22:56:05.180 HYPERVISOR: exec_cmd: vm set_disk0 R19 0 
+Dec 28 22:56:05.181 HYPERVISOR: exec_cmd: vm set_nvram R19 512 
+Dec 28 22:56:05.182 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.182 HYPERVISOR: exec_cmd: vm slot_add_binding R19 6 0 PA-4T+ 
+Dec 28 22:56:05.182 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.183 HYPERVISOR: exec_cmd: vm set_idle_pc R19 0x6318687c 
+Dec 28 22:56:05.183 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.184 HYPERVISOR: exec_cmd: vm slot_add_binding R19 1 0 PA-2FE-TX 
+Dec 28 22:56:05.184 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.184 HYPERVISOR: exec_cmd: vm slot_add_binding R19 5 0 PA-2FE-TX 
+Dec 28 22:56:05.185 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.185 HYPERVISOR: exec_cmd: vm slot_add_binding R19 2 0 PA-2FE-TX 
+Dec 28 22:56:05.186 HYPERVISOR: exec_cmd: c7200 set_mac_addr R19 ca13.4ac0.0000 
+Dec 28 22:56:05.186 HYPERVISOR: exec_cmd: vm set_ram R19 512 
+Dec 28 22:56:05.187 HYPERVISOR: exec_cmd: vm set_ios R19 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 28 22:56:05.188 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.188 HYPERVISOR: exec_cmd: vm slot_add_binding R19 3 0 PA-2FE-TX 
+Dec 28 22:56:05.188 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:05.189 HYPERVISOR: exec_cmd: vm slot_add_binding R19 4 0 PA-2FE-TX 
+Dec 28 22:56:05.190 HYPERVISOR: exec_cmd: vm set_exec_area R19 64 
+Dec 28 22:56:05.191 HYPERVISOR: exec_cmd: vm set_config R19 configs/i19_startup-config.cfg 
+Dec 28 22:56:05.204 HYPERVISOR: exec_cmd: vm set_ghost_status R19 2 
+Dec 28 22:56:05.204 HYPERVISOR: exec_cmd: vm set_ghost_file R19 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 28 22:56:06.616 HYPERVISOR: exec_cmd: nio create_udp udp-5e01e7cf-4385-425c-afc1-3d0467a2dfba 10041 127.0.0.1 10040 
+Dec 28 22:56:06.634 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R19 0 0 udp-5e01e7cf-4385-425c-afc1-3d0467a2dfba 
+Dec 28 22:56:06.645 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:18.776 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 28 22:56:18.777 HYPERVISOR: exec_cmd: vm start R19 
+Dec 28 23:00:25.376 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 28 23:02:26.018 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 28 23:05:49.131 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 28 23:07:29.191 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 28 23:09:44.984 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 28 23:09:45.005 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 29 16:36:26.660 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 29 16:36:36.396 HYPERVISOR: exec_cmd: vm get_status R19 
+Dec 29 16:36:36.421 HYPERVISOR: exec_cmd: vm stop R19 
+Dec 29 16:36:37.043 VM: VM R19 shutdown.
+Dec 29 16:36:37.051 HYPERVISOR: exec_cmd: vm extract_config R19 
+Dec 29 16:36:37.061 HYPERVISOR: exec_cmd: vm delete R19 
+Dec 29 16:36:37.062 VM: VM R19 destroyed.
+Dec 29 16:36:37.068 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 16:36:37.378 HYPERVISOR: Stopped.
+Dec 29 16:36:37.378 GENERAL: reset done.

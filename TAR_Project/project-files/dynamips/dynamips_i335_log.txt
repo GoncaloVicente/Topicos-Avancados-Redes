@@ -1,0 +1,58 @@
+Dec 29 17:31:48.672 HYPERVISOR: Release 0.2.14-x86/Windows (tag 2014092320)
+Dec 29 17:31:48.674 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 65049.
+Dec 29 17:31:48.813 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 29 17:31:48.910 HYPERVISOR: exec_cmd: hypervisor uuid 
+Dec 29 17:31:48.965 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips 
+Dec 29 17:31:48.965 GENERAL: working_dir=D:\Gonçalo\Engenharia Informática\Tópicos Avançados de Redes\Projeto P2\project-files\dynamips
+Dec 29 17:31:48.968 HYPERVISOR: exec_cmd: vm create R17 17 c7200 
+Dec 29 17:31:48.970 VM: VM R17 created.
+Dec 29 17:31:48.973 HYPERVISOR: exec_cmd: vm set_con_tcp_port R17 2017 
+Dec 29 17:31:48.974 HYPERVISOR: exec_cmd: c7200 get_mac_addr R17 
+Dec 29 17:31:48.975 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:48.976 HYPERVISOR: exec_cmd: vm slot_add_binding R17 0 0 C7200-IO-FE 
+Dec 29 17:31:48.977 HYPERVISOR: exec_cmd: vm set_disk0 R17 0 
+Dec 29 17:31:48.980 HYPERVISOR: exec_cmd: vm set_nvram R17 512 
+Dec 29 17:31:48.983 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:48.984 HYPERVISOR: exec_cmd: vm slot_add_binding R17 6 0 PA-4T+ 
+Dec 29 17:31:48.985 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:48.986 HYPERVISOR: exec_cmd: vm set_idle_pc R17 0x6318687c 
+Dec 29 17:31:48.988 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:48.990 HYPERVISOR: exec_cmd: vm slot_add_binding R17 1 0 PA-2FE-TX 
+Dec 29 17:31:48.991 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:48.993 HYPERVISOR: exec_cmd: vm slot_add_binding R17 5 0 PA-2FE-TX 
+Dec 29 17:31:48.995 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:48.997 HYPERVISOR: exec_cmd: vm slot_add_binding R17 2 0 PA-2FE-TX 
+Dec 29 17:31:48.998 HYPERVISOR: exec_cmd: c7200 set_mac_addr R17 ca11.5aac.0000 
+Dec 29 17:31:49.000 HYPERVISOR: exec_cmd: vm set_ram R17 512 
+Dec 29 17:31:49.002 HYPERVISOR: exec_cmd: vm set_ios R17 C:\Users\Gonçalo Vicente\GNS3\images\IOS\c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 29 17:31:49.005 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:49.006 HYPERVISOR: exec_cmd: vm slot_add_binding R17 3 0 PA-2FE-TX 
+Dec 29 17:31:49.008 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:49.010 HYPERVISOR: exec_cmd: vm slot_add_binding R17 4 0 PA-2FE-TX 
+Dec 29 17:31:49.013 HYPERVISOR: exec_cmd: vm set_exec_area R17 64 
+Dec 29 17:31:49.017 HYPERVISOR: exec_cmd: vm set_config R17 configs/i17_startup-config.cfg 
+Dec 29 17:31:49.020 HYPERVISOR: exec_cmd: vm set_ghost_status R17 2 
+Dec 29 17:31:49.023 HYPERVISOR: exec_cmd: vm set_ghost_file R17 c7200-advipservicesk9-mz.152-4.S5.image-512.ghost 
+Dec 29 17:31:52.594 HYPERVISOR: exec_cmd: nio create_udp udp-9915069d-faf9-4d10-8697-378f233717ab 10039 127.0.0.1 10038 
+Dec 29 17:31:52.612 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R17 0 0 udp-9915069d-faf9-4d10-8697-378f233717ab 
+Dec 29 17:31:52.687 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:55.568 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:31:55.570 HYPERVISOR: exec_cmd: vm start R17 
+Dec 29 17:48:04.108 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:48:04.114 HYPERVISOR: exec_cmd: vm stop R17 
+Dec 29 17:48:04.365 VM: VM R17 shutdown.
+Dec 29 17:48:37.408 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 17:48:37.410 HYPERVISOR: exec_cmd: vm start R17 
+Dec 29 17:52:21.525 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 29 17:53:23.604 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 29 17:53:23.699 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 29 17:57:11.005 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 29 20:45:11.319 HYPERVISOR: exec_cmd: vm get_status R17 
+Dec 29 20:45:11.322 HYPERVISOR: exec_cmd: vm stop R17 
+Dec 29 20:45:11.992 VM: VM R17 shutdown.
+Dec 29 20:45:11.996 HYPERVISOR: exec_cmd: vm extract_config R17 
+Dec 29 20:45:12.002 HYPERVISOR: exec_cmd: vm delete R17 
+Dec 29 20:45:12.002 VM: VM R17 destroyed.
+Dec 29 20:45:12.004 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 29 20:45:12.303 HYPERVISOR: Stopped.
+Dec 29 20:45:12.304 GENERAL: reset done.
